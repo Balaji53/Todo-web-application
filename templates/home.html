@@ -1,4 +1,4 @@
-
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +63,7 @@
                     {% csrf_token %}
                     <div class="form-group">
                         <span style="display: flex;">
-                            <input type="text" name="task" class="form-control" placeholder="Add a task">
+                            <input type="text" name="data" class="form-control" placeholder="Add a task">
                             <button type="submit" class="btn btn-primary" style="width: 200px;"><i class="fa fa-plus"></i> Add</button>
                         </span>
                     </div>
